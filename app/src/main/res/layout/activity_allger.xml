@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rr.virtual_hospital.AllgerActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Over-the-counter (OTC) antihistamines and decongestants may relieve minor symptoms.Antihistamines prevent symptoms such as hives by blocking histamines receptors so your body doesn’t react to the allergens.Decongestants help clear your nose, especially for seasonal allergies. But don’t take them for more than three days.These medications are available in tablets, eye drops, and nasal sprays. Many OTC drugs also cause drowsiness, so avoid taking them before driving or doing work that requires a lot of concentration. Swelling, redness, and itching may be reduced with ice and topical creams that contain corticosteroids. Make an appointment with your doctor if OTC drugs don’t work. Call the doctor right away if you have allergic reactions to the medication.The best remedies for food allergies usually entail avoiding foods that trigger an allergic reaction.If you accidentally come in contact or eat the food you’re allergic too, OTC drugs can temper the reaction. However, these drugs only help relieve hives or itching. Oral cromolyn, which is only available by prescription, can help your other symptoms. "
+
+               android:textColor="@android:color/black"
+                android:textSize="15dp"
+                android:padding="10dp"
+                android:layout_below="@+id/textView4"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="250dp"
+                android:text="Treatment: "
+                android:padding="10dp"
+                android:textColor="#43663c"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/symptoms"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:text="Symptoms: "
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/symptoms"
+                android:layout_marginTop="14dp"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:text="Your body’s allergic reaction depends on what you’re allergic to.Parts of your body that will react include your:
+
+1.Airways
+2.Nose
+3.Skin Mouth
+4.Digestive System"
+                android:textColor="@android:color/black"
+                android:textSize="15dp" />
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

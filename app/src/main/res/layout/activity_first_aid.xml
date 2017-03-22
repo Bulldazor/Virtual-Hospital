@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:weightSum="1000"
+    android:background="#820606"
+    android:layout_height="match_parent"
+    tools:context="com.example.rr.virtual_hospital.FirstAidActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/Allergies"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="35dp"
+                android:background="@drawable/button3"
+                android:text="Allergies"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Alzheimer"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/button3"
+                android:text="Alzheimer"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Acd"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/button3"
+                android:text="Acid Reflux"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/AclIn"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/button3"
+                android:text="ACL Injuries"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/AcNum"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/button3"
+                android:text="Acoustic Neuroma"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Adeno"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/button3"
+                android:text="Adenoiditis"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Alcholisom"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/button3"
+                android:text="Alcoholism"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Appendcs"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/button3"
+                android:text="Appendicitis"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Asthma"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/button3"
+                android:text="Asthma"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/AvianFlu"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/button3"
+                android:text="Avian Flu" />
+
+            <Button
+                android:id="@+id/BackPain"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/button3"
+                android:text="Back Pain" />
+
+            <Button
+                android:id="@+id/BloodClots"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/button3"
+                android:text="Blood Clots" />
+
+            <Button
+                android:id="@+id/Brochts"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/button3"
+                android:text="Bronchitis" />
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

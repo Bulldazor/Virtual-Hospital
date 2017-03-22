@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#8C1616"
+    android:layout_height="match_parent"
+    tools:context="com.example.rr.virtual_hospital.MainActivity">
+
+    <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/Welcome"
+        android:layout_width="107dp"
+        android:layout_height="51dp"
+        android:gravity="center"
+        android:layout_marginTop="2dp"
+        android:layout_gravity="center"
+        android:text="Welcome!"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+        <Button
+        android:id="@+id/Aid"
+        android:paddingLeft="22dp"
+        android:layout_width="352dp"
+        android:layout_marginTop="118dp"
+        android:layout_gravity="center"
+        android:layout_height="38dp"
+        android:text="First Aid"
+
+        android:drawableLeft="@drawable/syringe"
+        android:background="@drawable/button"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="150dp"
+        android:layout_below="@+id/VB"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/Hopitallist"
+        android:layout_width="356dp"
+        android:paddingLeft="22dp"
+        android:layout_height="38dp"
+        android:text="Hospital List"
+        android:layout_gravity="center"
+        android:drawableLeft="@drawable/hospital"
+        android:background="@drawable/button"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="220dp"
+        android:layout_marginTop="75dp"
+        android:layout_below="@+id/Aid"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/Diagnistics"
+        android:layout_marginTop="17dp"
+        android:paddingLeft="22dp"
+        android:layout_width="358dp"
+        android:layout_height="38dp"
+        android:drawableLeft="@drawable/medicalstethot"
+        android:text="Diagnostic Center"
+        android:layout_gravity="center"
+        android:background="@drawable/button"
+
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="293dp"
+        android:layout_below="@+id/Hopitallist"
+        android:layout_alignLeft="@+id/Hopitallist"
+        android:layout_alignStart="@+id/Hopitallist" />
+
+    <Button
+        android:id="@+id/Call"
+        android:paddingLeft="22dp"
+        android:layout_width="355dp"
+        android:layout_height="38dp"
+        android:text="Call For Help"
+        android:layout_marginTop="17dp"
+        android:layout_gravity="center"
+        android:drawableLeft="@drawable/auricularphonesymbol"
+        android:background="@drawable/button"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="361dp"
+        android:layout_below="@+id/Diagnistics"
+        android:layout_alignLeft="@+id/Diagnistics"
+        android:layout_alignStart="@+id/Diagnistics" />
+
+        <Button
+            android:id="@+id/Map"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="13dp"
+            android:background="@drawable/button"
+            android:drawableLeft="@drawable/route"
+            android:paddingLeft="22dp"
+            android:text="Nearest Hospital"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="428dp"
+            android:layout_below="@+id/Call"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:id="@+id/VB"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+
+            android:layout_gravity="center"
+            android:background="@drawable/button"
+            android:paddingLeft="22dp"
+            android:text="Virtual Blood Bank"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="80dp"
+            android:layout_below="@+id/Welcome"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="66dp" />
+    </RelativeLayout>
+</ScrollView>
+
+</LinearLayout>
